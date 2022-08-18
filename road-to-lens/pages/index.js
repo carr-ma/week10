@@ -1,4 +1,4 @@
-import { useQuery } from "@apollo/client";
+import { useQuery, gql } from "@apollo/client";
 import recommendedProfilesQuery from '../queries/recommendedProfilesQuery.js';
 import Profile from '../components/Profile.js';
 
